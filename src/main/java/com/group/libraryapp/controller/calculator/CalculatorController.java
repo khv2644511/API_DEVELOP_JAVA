@@ -9,7 +9,7 @@ public class CalculatorController {
 
     @GetMapping("/add") // GET /add
     public int addTwoNumbers(
-            CalculatorAddRequest request
+            CalculatorAddRequest request // 객체로 매개변수 받기
             // @RequestParam int number1, // 쿼리로 매개변수 받기
             // @RequestParam int number2
     ) {

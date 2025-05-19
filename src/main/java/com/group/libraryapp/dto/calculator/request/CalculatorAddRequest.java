@@ -1,5 +1,8 @@
 package com.group.libraryapp.dto.calculator.request;
 
+// DTO : Data Transfer Object
+// 요청을 받을 때 사용하는 객체
+// CalculatorController 진입점에 도달
 public class CalculatorAddRequest {
 
     private final int number1;
